@@ -1,0 +1,8 @@
+[32m2024-07-09 16:17:57 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14693 - LOGS_CAPTURED - Started capturing logs in process (pid: 14693).
+[32m2024-07-09 16:17:57 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14693 - SET_FMC_MTD_FL_INIT_SLS - STEP_START - Started execution of step "SET_FMC_MTD_FL_INIT_SLS".
+[32m2024-07-09 16:17:57 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - SET_FMC_MTD_FL_INIT_SLS - Executing query:         CALL SPEEDSHOP_PROC.SET_FMC_MTD_FL_INIT_SLS('INIT_SALES', '100', '2024-07-09 16:17:57');
+    
+[32m2024-07-09 16:18:00 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - SET_FMC_MTD_FL_INIT_SLS - Stored procedure executed successfully.
+[32m2024-07-09 16:18:00 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14693 - SET_FMC_MTD_FL_INIT_SLS - STEP_OUTPUT - Yielded output "result" of type "Nothing". (Type check passed).
+[32m2024-07-09 16:18:00 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14693 - SET_FMC_MTD_FL_INIT_SLS - ASSET_MATERIALIZATION - Materialized value SET_FMC_MTD_FL_INIT_SLS.
+[32m2024-07-09 16:18:00 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14693 - SET_FMC_MTD_FL_INIT_SLS - STEP_SUCCESS - Finished execution of step "SET_FMC_MTD_FL_INIT_SLS" in 2.67s.

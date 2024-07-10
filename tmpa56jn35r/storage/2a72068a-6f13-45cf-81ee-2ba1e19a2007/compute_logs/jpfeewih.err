@@ -1,0 +1,9 @@
+[32m2024-07-09 16:18:13 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14887 - LOGS_CAPTURED - Started capturing logs in process (pid: 14887).
+[32m2024-07-09 16:18:13 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14887 - STG_SLS_MOTORCYCLES_INIT - STEP_START - Started execution of step "STG_SLS_MOTORCYCLES_INIT".
+[32m2024-07-09 16:18:13 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - STG_SLS_MOTORCYCLES_INIT - Executing query: 
+        CALL SPEEDSHOP_PROC.STG_SLS_MOTORCYCLES_INIT();
+    
+[32m2024-07-09 16:18:15 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - STG_SLS_MOTORCYCLES_INIT - Stored procedure executed successfully.
+[32m2024-07-09 16:18:15 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14887 - STG_SLS_MOTORCYCLES_INIT - STEP_OUTPUT - Yielded output "result" of type "Nothing". (Type check passed).
+[32m2024-07-09 16:18:15 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14887 - STG_SLS_MOTORCYCLES_INIT - ASSET_MATERIALIZATION - Materialized value STG_SLS_MOTORCYCLES_INIT.
+[32m2024-07-09 16:18:15 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14887 - STG_SLS_MOTORCYCLES_INIT - STEP_SUCCESS - Finished execution of step "STG_SLS_MOTORCYCLES_INIT" in 1.89s.

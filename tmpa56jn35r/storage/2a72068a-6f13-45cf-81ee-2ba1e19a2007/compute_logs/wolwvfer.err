@@ -1,0 +1,9 @@
+[32m2024-07-09 16:18:32 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15189 - LOGS_CAPTURED - Started capturing logs in process (pid: 15189).
+[32m2024-07-09 16:18:32 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15189 - LND_SLS_PURCHASED_PASSCAR_INIT - STEP_START - Started execution of step "LND_SLS_PURCHASED_PASSCAR_INIT".
+[32m2024-07-09 16:18:32 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - LND_SLS_PURCHASED_PASSCAR_INIT - Executing query: 
+        CALL SPEEDSHOP_PROC.LND_SLS_PURCHASED_PASSCAR_INIT();
+    
+[32m2024-07-09 16:18:33 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - LND_SLS_PURCHASED_PASSCAR_INIT - Stored procedure executed successfully.
+[32m2024-07-09 16:18:33 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15189 - LND_SLS_PURCHASED_PASSCAR_INIT - STEP_OUTPUT - Yielded output "result" of type "Nothing". (Type check passed).
+[32m2024-07-09 16:18:33 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15189 - LND_SLS_PURCHASED_PASSCAR_INIT - ASSET_MATERIALIZATION - Materialized value LND_SLS_PURCHASED_PASSCAR_INIT.
+[32m2024-07-09 16:18:33 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15189 - LND_SLS_PURCHASED_PASSCAR_INIT - STEP_SUCCESS - Finished execution of step "LND_SLS_PURCHASED_PASSCAR_INIT" in 1.19s.

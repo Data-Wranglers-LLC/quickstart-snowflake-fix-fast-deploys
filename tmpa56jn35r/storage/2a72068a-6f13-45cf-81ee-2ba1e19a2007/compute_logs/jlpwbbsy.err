@@ -1,0 +1,9 @@
+[32m2024-07-09 16:18:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15122 - LOGS_CAPTURED - Started capturing logs in process (pid: 15122).
+[32m2024-07-09 16:18:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15122 - HUB_SLS_SHOPS_INIT - STEP_START - Started execution of step "HUB_SLS_SHOPS_INIT".
+[32m2024-07-09 16:18:28 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - HUB_SLS_SHOPS_INIT - Executing query: 
+        CALL SPEEDSHOP_PROC.HUB_SLS_SHOPS_INIT();
+    
+[32m2024-07-09 16:18:29 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - HUB_SLS_SHOPS_INIT - Stored procedure executed successfully.
+[32m2024-07-09 16:18:29 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15122 - HUB_SLS_SHOPS_INIT - STEP_OUTPUT - Yielded output "result" of type "Nothing". (Type check passed).
+[32m2024-07-09 16:18:29 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15122 - HUB_SLS_SHOPS_INIT - ASSET_MATERIALIZATION - Materialized value HUB_SLS_SHOPS_INIT.
+[32m2024-07-09 16:18:29 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15122 - HUB_SLS_SHOPS_INIT - STEP_SUCCESS - Finished execution of step "HUB_SLS_SHOPS_INIT" in 1.35s.
