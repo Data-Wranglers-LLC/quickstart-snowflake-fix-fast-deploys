@@ -1,9 +1,0 @@
-[32m2024-07-09 16:18:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15174 - LOGS_CAPTURED - Started capturing logs in process (pid: 15174).
-[32m2024-07-09 16:18:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15174 - LDS_SLS_PURCHASEDMCYCLE_INIT - STEP_START - Started execution of step "LDS_SLS_PURCHASEDMCYCLE_INIT".
-[32m2024-07-09 16:18:31 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - LDS_SLS_PURCHASEDMCYCLE_INIT - Executing query: 
-        CALL SPEEDSHOP_PROC.LDS_SLS_PURCHASEDMCYCLE_INIT();
-    
-[32m2024-07-09 16:18:32 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - LDS_SLS_PURCHASEDMCYCLE_INIT - Stored procedure executed successfully.
-[32m2024-07-09 16:18:32 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15174 - LDS_SLS_PURCHASEDMCYCLE_INIT - STEP_OUTPUT - Yielded output "result" of type "Nothing". (Type check passed).
-[32m2024-07-09 16:18:32 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15174 - LDS_SLS_PURCHASEDMCYCLE_INIT - ASSET_MATERIALIZATION - Materialized value LDS_SLS_PURCHASEDMCYCLE_INIT.
-[32m2024-07-09 16:18:32 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 15174 - LDS_SLS_PURCHASEDMCYCLE_INIT - STEP_SUCCESS - Finished execution of step "LDS_SLS_PURCHASEDMCYCLE_INIT" in 1.61s.

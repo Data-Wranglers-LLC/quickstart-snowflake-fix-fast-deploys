@@ -1,9 +1,0 @@
-[32m2024-07-09 16:18:20 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14992 - LOGS_CAPTURED - Started capturing logs in process (pid: 14992).
-[32m2024-07-09 16:18:20 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14992 - LNK_SLS_INVOICES_PERSONS_INIT - STEP_START - Started execution of step "LNK_SLS_INVOICES_PERSONS_INIT".
-[32m2024-07-09 16:18:20 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - LNK_SLS_INVOICES_PERSONS_INIT - Executing query: 
-        CALL SPEEDSHOP_PROC.LNK_SLS_INVOICES_PERSONS_INIT();
-    
-[32m2024-07-09 16:18:21 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - LNK_SLS_INVOICES_PERSONS_INIT - Stored procedure executed successfully.
-[32m2024-07-09 16:18:21 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14992 - LNK_SLS_INVOICES_PERSONS_INIT - STEP_OUTPUT - Yielded output "result" of type "Nothing". (Type check passed).
-[32m2024-07-09 16:18:21 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14992 - LNK_SLS_INVOICES_PERSONS_INIT - ASSET_MATERIALIZATION - Materialized value LNK_SLS_INVOICES_PERSONS_INIT.
-[32m2024-07-09 16:18:21 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2a72068a-6f13-45cf-81ee-2ba1e19a2007 - 14992 - LNK_SLS_INVOICES_PERSONS_INIT - STEP_SUCCESS - Finished execution of step "LNK_SLS_INVOICES_PERSONS_INIT" in 1.48s.
