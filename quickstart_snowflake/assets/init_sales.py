@@ -946,9 +946,7 @@ def FMC_UPD_RUN_STATUS_FL_SLS(context, snowflake: SnowflakeResource) -> None:
     success_flag = '1'
     
     # Construct the query with string formatting
-    query = f"""
-        CALL SPEEDSHOP_PROC.SET_FMC_MTD_FL_INIT_SLS('{load_cycle_id}', '{success_flag}');
-    """
+    query = f"CALL SPEEDSHOP_PROC.SET_FMC_MTD_FL_INIT_SLS('{str(load_cycle_id)}', '{str(success_flag)}');"
 
     # Log the query for debugging purposes
     context.log.info(f"Executing query: {query}")
